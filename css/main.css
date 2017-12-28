@@ -68,6 +68,10 @@ span {
   opacity: 1.0;  
 }
 
+.lb-data .lb-details {
+  width: 100%;
+}
+
 .lb-data .lb-close {
   display: none;
 }
@@ -77,7 +81,7 @@ span {
   font-weight: 200;
   line-height: 1.6em;
   display: block;
-  width: 600px;
+  max-width: 600px;
   text-align: left;
   margin: 70px auto;
 }
