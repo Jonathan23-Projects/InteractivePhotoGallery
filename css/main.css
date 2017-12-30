@@ -12,13 +12,8 @@ body {
 
 .search {
   width: 32.5%;
-  margin: 30px auto;
+  margin: 20px auto;
   height: 15px;
-}
-
-::placeholder {
- font-size: 16px;
- text-align: left;
 }
 
 .inputText {
@@ -31,7 +26,7 @@ body {
 
 .gallery {
   width: 64%;
-	margin: 30px auto;
+	margin: 20px auto;
 	overflow: hidden;
 }
 
@@ -48,7 +43,7 @@ span {
   display: none;
 }
 
-/*Lightbox display customizations to match sample image*/
+/*Lightbox display customizations to match project sample image*/
 
 .lightbox .lb-image {
   border: none;
@@ -68,10 +63,6 @@ span {
   opacity: 1.0;  
 }
 
-.lb-data .lb-details {
-  width: 100%;
-}
-
 .lb-data .lb-close {
   display: none;
 }
@@ -81,7 +72,7 @@ span {
   font-weight: 200;
   line-height: 1.6em;
   display: block;
-  max-width: 600px;
+  width: 600px;
   text-align: left;
-  margin: 70px auto;
+  margin: 70px 175px;
 }
